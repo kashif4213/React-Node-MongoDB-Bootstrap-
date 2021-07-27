@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.socialBtn
+{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 30px;
+  
+}
+.signIn{
+  margin-top: 100px;
+}
+.separation
+{
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.myInput1
+{
+  width:100%;
+}
+.myInput
+{
+  box-shadow: none;
+  border-radius: .25rem;
+    border: 1px solid #96a0aa;
+    height: 3rem;
+    padding: .625rem 1rem;
+   
+    transition: all .3s ease;
+    width:500px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+.signUp{
+  box-shadow: 0 4px 8px 0 rgb(17 22 26 / 16%), 0 4px 8px 0 rgb(17 22 26 / 8%), 0 8px 16px 0 rgb(17 22 26 / 4%);
+  background: #017a9b;
+  color: #fff;
+  height: 3rem;
+    padding: 0 1rem;
+    border: transparent;
+    border-radius: .5rem;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans",sans-serif;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.myInput::selection
+{
+  background: rgba(164,228,245,.4);
+}
+.before{
+  width: 50%;
+}
+.after
+{
+  width: 80%;
+}
+.topButtons
+{
+  display: flex;
+}
+.outerBox{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  border: 1px solid #c8cdd2;
+  margin-bottom: 40px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

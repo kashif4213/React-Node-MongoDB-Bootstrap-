@@ -1,0 +1,125 @@
+.Navbar
+{
+
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 6000;
+    background: #fff;
+    box-shadow: 0 1px 20px 0 rgb(46 61 73 / 20%);
+    animation: catalog-nav_sticky-slide-down__3Ey9a .4s ease .25s forwards;
+}
+.navitem{
+    width:100px;
+    color: #525c65;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .125rem solid transparent;
+    
+}
+.navitem1
+{
+  
+    width:150px;
+    color: #525c65;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .125rem solid transparent;
+}
+.navitem:hover{
+    width:100px;
+    color: #017a9b;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .125rem solid transparent;
+    
+}
+.navitem1:hover
+{
+  
+    width:150px;
+    color: #017a9b;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .125rem solid transparent;
+}
+button{
+    margin-left: 2%;
+    font-family: Open Sans,sans-serif;
+color: #525c65;
+background-color: inherit;
+border: 0;
+text-align: left;
+
+font-size: 1.0rem;
+}
+.navbuttons
+{
+    display: inline-flex;
+    margin-top: 10px;
+margin-left: 180px;
+margin-right: 20px;
+}
+.navbuttons1
+{
+    display: inline-flex;
+    margin-top: 10px;
+   
+
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.navitem2{
+    width:80px;
+    margin-left: 20px;
+    color: #525c65;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .125rem solid transparent;
+}
+.navitem2:hover{
+    width:80px;
+    margin-left: 20px;
+    color: #017a9b;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .125rem solid transparent;
+}
+.navitem3
+{
+    font-size: .8125rem;
+    line-height: 1.8125rem;
+    height: 2rem;
+    min-width: 131px;
+    width: auto;
+    width:150px;
+    color: #fff;
+    background-color: #017a9b;
+    border: .125rem solid transparent;
+    box-shadow: 8px 10px 20px 0 rgb(46 61 73 / 15%);
+    text-align: center;
+    border-radius: .25rem;
+    letter-spacing: .125rem;
+    display: block;
+    margin-top: 10px;
+}
+.navitem3:hover
+{
+    font-size: .8125rem;
+    line-height: 1.8125rem;
+    height: 2rem;
+    min-width: 131px;
+    width: auto;
+    width:150px;
+    color: #fff;
+    background-color: #016682;
+    border: .125rem solid transparent;
+    box-shadow: 8px 10px 20px 0 rgb(46 61 73 / 15%);
+    text-align: center;
+    border-radius: .25rem;
+    letter-spacing: .125rem;
+    display: block;
+    margin-top: 10px;
+}
